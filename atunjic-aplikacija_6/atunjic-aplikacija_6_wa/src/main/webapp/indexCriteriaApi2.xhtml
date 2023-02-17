@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<f:view contentType="text/html;charset=UTF-8" encoding="UTF-8">
+	<h:head>
+		<title>Pregled korisnika</title>
+	</h:head>
+		<style>
+    	body{
+    		margin: auto;
+    	}
+        h2{
+        	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    		color: #2D365F;
+    		font-size: 40px;
+    		text-align: center;
+    		padding:8px 0px;
+        }
+        ul {
+		  	list-style-type: none;
+    	  	background-color: #2D365F;
+    	  	text-align: center;
+    	  	padding-top: 10px 0px;
+		}
+		li {
+			padding: 10px 0px;
+		}
+    </style>
+	<h:body>
+		<h2>Pregled korisnika</h2>
+		<ul>
+        	<li><h:link outcome="index.xhtml" value="Prijava" 
+        	style="text-decoration:none; color:white; padding:8px 0px; font-family:'Nobile', Helvetica, Arial, sans-serif; font-size: 20px;"/></li>
+        </ul>
+		
+		<br />
+		<h:form id="form">
+			<p:dataTable value="#{korisniciZrnoCriteriaApi.korisniciPosluzitelj}" var="k" 
+				paginator="true" rows="7">
+				
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Ime" />
+					</f:facet>
+					#{k.ime}
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Prezime" />
+					</f:facet>
+					#{k.prezime}
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Email" />
+					</f:facet>
+					#{k.email}
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Korisnik" />
+					</f:facet>
+					#{k.korIme}
+				</p:column>
+			</p:dataTable>
+		</h:form>
+		
+	</h:body>
+</f:view>
+</html>

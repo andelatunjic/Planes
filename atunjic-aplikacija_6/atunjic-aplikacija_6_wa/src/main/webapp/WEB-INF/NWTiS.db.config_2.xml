@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>NWTIS konfiguracija</comment>
+<entry key="server.database">jdbc:mysql://localhost:3306/</entry>
+<entry key="admin.username">nwtis_admin</entry>
+<entry key="admin.password">nwtis_foi</entry>
+<entry key="admin.database">nwtis_g2</entry>
+<entry key="user.username">nwtis_g2</entry>
+<entry key="user.password">nwtis#g2</entry>
+<entry key="user.database">nwtis_g2?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true</entry>
+<entry key="jdbc.mysql">com.mysql.cj.jdbc.Driver</entry>
+<entry key="jdbc.derby">org.apache.derby.jdbc.ClientDriver</entry>
+<entry key="jdbc.hsqldb.hsql">org.hsqldb.jdbcDriver</entry>
+<entry key="adresa.wa_1">http://localhost:9090/atunjic-zadaca_3_wa_1</entry>
+<entry key="LocationIQ.token">pk.fe98f248db1358de705b16a84ce9a811</entry>
+<entry key="stranica.brojRedova">15</entry>
+</properties>

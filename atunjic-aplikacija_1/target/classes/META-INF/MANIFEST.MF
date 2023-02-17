@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Class-Path: libs/atunjic-projekt_lib_03_1-1.0.1.jar libs/gson-2.8.6.jar 
+ libs/lombok-1.18.22.jar libs/NWTiS_REST_lib-2.3.0.jar
+Main-Class: org.foi.nwtis.atunjic.aplikacija_1.ServerGlavni
+Created-By: Maven Integration for Eclipse
+

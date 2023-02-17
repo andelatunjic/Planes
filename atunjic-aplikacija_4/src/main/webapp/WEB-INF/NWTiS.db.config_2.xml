@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>NWTIS konfiguracija</comment>
+<entry key="server.database">jdbc:mysql://localhost:3306/</entry>
+<entry key="admin.username">nwtis_admin</entry>
+<entry key="admin.password">nwtis_foi</entry>
+<entry key="admin.database">nwtis_g2</entry>
+<entry key="user.username">nwtis_g2</entry>
+<entry key="user.password">nwtis#g2</entry>
+<entry key="user.database">nwtis_g2?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true</entry>
+<entry key="jdbc.mysql">com.mysql.cj.jdbc.Driver</entry>
+<entry key="jdbc.derby">org.apache.derby.jdbc.ClientDriver</entry>
+<entry key="jdbc.hsqldb.hsql">org.hsqldb.jdbcDriver</entry>
+<entry key="adresa.wa_1">http://localhost:8080/atunjic/api</entry>
+
+<entry key="sustav.korisnik">pkos</entry>
+<entry key="sustav.lozinka">123456</entry>
+<entry key="sustav.administratori">admin</entry>
+<entry key="aplikacija1.adresa">localhost</entry>
+<entry key="aplikacija1.port">8002</entry>
+</properties>
